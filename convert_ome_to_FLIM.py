@@ -13,7 +13,7 @@ cmap_PQ.append(np.genfromtxt('ColorSchemes/ColorScheme_3_Cyan-Magenta-Yellow.txt
 
 root = Tk()
 root.withdraw()
-fn = filedialog.askopenfilename()
+fn = filedialog.askopenfilename(initialdir='Examples',initialfile='Example_Neurons_OME_TIF.tif')
 
 root = Tk()
 root.withdraw()
